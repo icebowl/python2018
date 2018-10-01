@@ -1,7 +1,9 @@
 # doc.py cwc
-#https://www.w3schools.com/python/python_syntax.asp
-"""  Multiple line 
-     comment.
-     """
-print("Document what you are doing.")     
-
+# Single line documentation
+"""
+Document how
+you program
+your code.
+"""
+print ("Hello World")
+print ("doc.py")
