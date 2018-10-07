@@ -1,4 +1,4 @@
-#hexbinconvert.py cwc
+#dechexbin_loop.py cwc
 def bincon(decimal):
     bin_str = ""
     for i in range(8):
@@ -28,14 +28,11 @@ def hexcon(decimal):
     return hex_str
 
 def main():
-    print("INPUT -1 TO EXIT THE PROGRAM")
-    print("INPUT A POSITIVE INTEGER LESS THAN 256")
-    done = 0
-    while (done >= 0):
-        dec = int(input("INPUT AN INTEGER : "))
+    dec = 0;
+    while (dec < 256):
         hexs = hexcon(dec)
         bins = bincon(dec)
         print(dec,hexs,bins)
-        done = dec
+        dec +=1
 
 main()
